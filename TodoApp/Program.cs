@@ -35,4 +35,6 @@ app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 app.MapControllers();
+app.Urls.Add("http://0.0.0.0:5059");
+
 app.Run();
